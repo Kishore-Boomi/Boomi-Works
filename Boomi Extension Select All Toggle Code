@@ -1,0 +1,1 @@
+javascript:(() => {const c=document.getElementById('popup_on_popup_content_ExtensionDesignerDialogContents');if(c){[...c.querySelectorAll('input[type="checkbox"]')].forEach(e=>{if(e.offsetWidth||e.offsetHeight||e.getClientRects().length){e.focus();e.checked=true;e.blur();const ev=new Event('click');e.dispatchEvent(ev);}});}})();
